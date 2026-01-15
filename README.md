@@ -1,6 +1,6 @@
 # Aesthetic Typing
 
-## I made this app where you can just sit and relax while hearing the soothing backgroung music and theme.
+## I made this app where you can just sit and relax while hearing the soothing background music and theme.
 
 ### In this app you can practice your typing and see the text print in front of you while you enjoy the mood.
 ### Best way to experience is with earphones.
