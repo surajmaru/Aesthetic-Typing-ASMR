@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  user-select: none;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.top-div{
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20; /* must be higher than typing area */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  pointer-events: auto;
+}
+
+.top-div-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-mute{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transform: translateY(0);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-mute:hover {
+  transform: translateY(-3px);
+  background-color: rgba(255, 255, 255, 0.1); /* optional glow effect */
+}
+
+.btn-mute .active{
+  transform: translateY(-3px);
+  background-color: rgba(255, 255, 255, 0.1);  
+}
