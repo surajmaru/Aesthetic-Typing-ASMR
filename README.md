@@ -3,6 +3,9 @@
 ## I made this app where you can just sit and relax while hearing the soothing background music and theme.
 
 ### In this app you can practice your typing and see the text print in front of you while you enjoy the mood.
+
+### This is for PC only!!
+
 ### Best way to experience is with earphones.
 
 ### Hope y'all enjoy ❤️
