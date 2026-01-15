@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 200px;
+  gap: 100px;
   pointer-events: auto;
 }
 
@@ -76,4 +76,8 @@ body {
 .btn-mute .active{
   transform: translateY(-3px);
   background-color: rgba(255, 255, 255, 0.1);  
+}
+
+.self-img{
+  width: 50px;
 }

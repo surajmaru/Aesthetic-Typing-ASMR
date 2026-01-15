@@ -151,6 +151,7 @@ function handleTheme(video,audio){
 return (
   <>
   <div className='top-div'>
+    <a href='https://suraj-dev.vercel.app/' target='_blank'><img className='self-img' src='/self.png' /></a>
   
   <button className='btn-mute' onClick={handleMute}> <img
     src={mute ? "/unmute.png" : "/sound-off.png"}
